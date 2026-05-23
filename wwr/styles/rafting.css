@@ -71,6 +71,8 @@ h1 {
 article {
     position: absolute;
     width: 100%;
+    bottom: 20px;
+    left: 20px;
     padding: 16px;
     text-align: left;
     background-color: var(--accent2-color);
