@@ -68,6 +68,10 @@ h1 {
     color: #fff;
 }
 
+h2 {
+    text-align: center;
+}
+
 .hero article {
     position: absolute;
     width: 100%;
@@ -101,7 +105,7 @@ h1 {
 
 .navigation a {
     display: block;
-    color: tomato;
+    color: var(--primary-color);
     padding: 20px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -142,7 +146,7 @@ section {
     border: 1px solid rgb(0 0 0 / 10%);
     background-color: var(--accent2-color);
     width: min(800px, 100%);
-    display: flex 1 1 auto;
+    display: flex 1 1;
     list-style: none;
 }
 
@@ -159,9 +163,8 @@ code {
 
 .history image {
     float: left;
-    object-fit: cover;
-    border-radius: 50%;
-    shape-outside: circle(50%);
+    width: 240px;
+    height: auto;
     margin: 10px 25px 15px 0;
     border: 4px solid var(--secondary-color);
 }
@@ -188,6 +191,11 @@ code {
 .adventure figcaption {
     margin-top: 0.5rem;
     font-size: 0.9rem;
+}
+
+.adventure img {
+    width: 140px;
+    height: auto;
 }
 
 footer {
