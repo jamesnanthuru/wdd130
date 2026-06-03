@@ -131,13 +131,11 @@ header nav {
 
 header {
     margin: 1rem auto;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 120px 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
-    width: 840px;
-    padding-bottom: 0.5rem;
 }
 
 section {
