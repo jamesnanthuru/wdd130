@@ -19,3 +19,10 @@ tfoot tr {
     color: #fff;
     font-weight: 700;
 }
+
+form {
+    display: flex;
+    flex: content;
+    padding: 0;
+    bottom: 0;
+}
