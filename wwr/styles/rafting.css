@@ -64,6 +64,17 @@ h1 {
     color: #fff;
 }
 
+.contact-page-title {
+    position: absolute;
+    top: 60px;
+    width: 800px;
+    padding: 16px;
+    text-align: center;
+    color: #000000;
+    background-color: #fff;
+
+}
+
 h2 {
     text-align: center;
 }
